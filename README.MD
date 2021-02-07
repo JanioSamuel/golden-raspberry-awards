@@ -23,7 +23,7 @@
   }
   ```
 
-`http://localhost:8080/api/movies/producers`
+`http://localhost:8080/api/winners`
 
 Busca entre todos os vencedores aqueles que tiveram o maior e o menor intervalo entre as premiações, não trazendo aqueles que obtiveram uma única vitória.
 Exemplo do retorno:
