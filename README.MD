@@ -5,6 +5,10 @@
 - Maven 3.6.3
 - Spring boot 2.4.2
 
+#### Frontend
+
+- Caso prefira utilizar uma uma interface web, foi criada uma aplicação frontend a qual consome esta API REST e se encontra [AQUI](https://github.com/JanioSamuel/golden-raspberry-awards-frontend) com as instruções de como subir a aplicação.
+
 #### Como usar
 - A aplicação consiste em, a partir de um csv no diretório `resources`, adicionar todos os dados em uma base em memória `H2` e criar os endpoints abaixo:
 
