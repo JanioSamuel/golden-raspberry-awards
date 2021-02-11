@@ -112,7 +112,7 @@ public class MovieServiceImpl implements MovieService {
 	}
 
 	private void addToSeparatedNames(Map<String, List<Integer>> separatedNames, Movie movie) {
-		if(separatedNames.containsKey(movie.getProducers())) {
+		if(separatedNames.containsKey(movie.getProducers().trim())) {
 			separatedNames.get(movie.getProducers().trim()).add(movie.getYear());
 		} else {
 			List<Integer> i = new ArrayList<>();
